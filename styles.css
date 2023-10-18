@@ -28,22 +28,18 @@
 
 .container {
   /* border: 4px solid rgb(196, 48, 196); */
-  /* position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #000000;
-  padding: 20px;
-  font-size: 18px; */
-
 }
 
 .sub_container {
   /* border: 3px solid rgb(39, 21, 145); */
-  background-image: url(./img/istockphoto-537331500-170667a.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  
+}
+
+.video_play{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -999;
 }
 
 .nav_sec {
@@ -51,14 +47,18 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* padding: 10px; */  
 }
 
 .nav_header {
   /* border: 3px solid lime; */
   display: flex;
   justify-content: space-between;
-  
+  padding: 3.5px;  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* background-color: #000000; */
+  font-size: 18px;
 }
 
 /* div.nav_header{
@@ -139,7 +139,7 @@ button:hover {
 }
 
 .create_agi {
-  margin-top: 270px;
+  margin-top: 230px;
   margin-left: 260px;
 }
 
@@ -152,8 +152,6 @@ button:hover {
 .safe-agi {
   font-size: 70px;
   font-weight: 400;
-  font-family: "Soehne", system-ui, -apple-system, Helvetica Neue, Arial,
-    sans-serif;
 }
 
 .more_about {
@@ -168,12 +166,10 @@ button:hover {
   border-color: #ffffff;
   font-size: 17px;
   font-weight: 500;
-  /* font-family: "Soehne", system-ui, -apple-system, Helvetica Neue, Arial,
-    sans-serif; */
-  padding-top: 5px;
-  padding-left: 12px;
+  padding-top: 4px;
+  padding-left: 10px;
   width: 180.8px;
-  height: 33.8px;
+  height: 33.9px;
 }
 
 .more_about p:hover {
@@ -185,12 +181,12 @@ button:hover {
   background-color: #000000;
   color: #ffffff;
   border: #000000;
-  margin-left: 750px;
-  /* margin-right: 20px; */
-  font-size: 16px;
+  margin-left: 745px;
+  margin-right: 18px;
+  font-size: 17px;
   font-weight: 600;
   padding: 6px;
-  height: 48px;
+  height: 50px;
   width: 160px;
 }
 
@@ -204,6 +200,7 @@ button:hover {
   list-style-type: none;
   width: 100%;
   margin-bottom: 40px;
+  padding-left: 20px;
 }
 
 .work_list {
@@ -239,7 +236,8 @@ a .abt_products {
 }
 
 hr {
-  margin-top: 100px;
+  margin: 100px 18px 0px 20px;
+  
 }
 
 .latest {
@@ -247,6 +245,7 @@ hr {
   justify-content: space-between;
   margin-top: 15px;
   margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 .latest_updates {
@@ -260,20 +259,22 @@ hr {
 .all_updates {
   color: #ffffff;
   font-size: 17px;
+  margin-right: 18px;
 }
 
 .ul_list_two {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  column-gap: 19px;
+  column-gap: 17px;
   list-style-type: none;
   margin-top: 30px;
   width: 100%;
+  padding-left: 20px;
 }
 
 .box {
-  width: 320px;
-  height: 320px;
+  width: 310px;
+  height: 310px;
   margin-top: 10px;
 }
 
