@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-right: 20px;
+  margin-right: 18px;
 }
 
 .video_play{
@@ -67,6 +67,7 @@
   width: 16px;
   height: 16px;
   padding-top: 3px;
+  margin-left: 3px;
 }
 
 .mono_ai :hover {
@@ -88,7 +89,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 35%;
+  width: 37%;
   margin-right: 200px;
 }
 
@@ -96,7 +97,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 25%;
+  width: 24%;
   padding: 10px;
   /* margin-top: 5px; */
 }
@@ -118,9 +119,9 @@
   color: #ffffff;
   background: none;
   font-size: 18px;
-  padding: 3px 9px;
+  padding: 4px 9px;
   cursor: pointer;
-  width: 140px;
+  width: 139px;
 }
 
 button:hover {
@@ -130,7 +131,7 @@ button:hover {
 
 .create_agi {
   margin-top: 320px;
-  margin-left: 230px;
+  margin-left: 240px;
 }
 
 .agi {
@@ -171,7 +172,7 @@ button:hover {
   background-color: #000000;
   color: #ffffff;
   border: #000000;
-  margin-left: 755px;
+  margin-left: 750px;
   margin-right: 18px;
   font-size: 17px;
   font-weight: 500;
