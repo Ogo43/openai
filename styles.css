@@ -16,7 +16,7 @@
   padding: 0;
 }
 
-.body{
+.body {
   color: #ffffff;
   background-color: #000000;
 }
@@ -24,12 +24,12 @@
 .container {
   /* border: 2px solid red; */
   font-family: "Soehne", system-ui, -apple-system, Helvetica Neue, Arial,
-  sans-serif;
+    sans-serif;
   font-size: 17px;
   font-weight: 500;
 }
 
-.sub_header{
+.sub_header {
   width: 100%;
   /* position: relative; */
 }
@@ -44,14 +44,14 @@
   top: 0px;
 }
 
-.mono_ai{
+.mono_ai {
   display: flex;
   justify-content: center;
   align-content: center;
   margin-right: 18px;
 }
 
-.video_play{
+.video_play {
   position: absolute;
   object-fit: cover;
   right: 0;
@@ -59,11 +59,11 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  transition-duration: .3s;
-  opacity: 0.50;
+  transition-duration: 0.3s;
+  opacity: 0.5;
 }
 
-.arr_down{
+.arr_down {
   width: 16px;
   height: 16px;
   padding-top: 3px;
@@ -158,9 +158,9 @@ button:hover {
   border-color: #ffffff;
   font-size: 17px;
   font-weight: 500;
-  padding-top: 4px;
-  padding-left: 10px;
-  margin-left: 5px;
+  padding-top: 3px;
+  padding-left: 14px;
+  margin-left: 6px;
   width: 240px;
   height: 33px;
 }
@@ -218,7 +218,7 @@ button:hover {
 a .abt_products {
   font-size: 17px;
   text-decoration-line: underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 3px;
 }
 
 .our_research :hover {
@@ -230,7 +230,6 @@ a .abt_products {
 
 hr {
   margin: 100px 18px 0px 20px;
-  
 }
 
 .latest {
@@ -253,6 +252,16 @@ hr {
   color: #ffffff;
   font-size: 17px;
   margin-right: 18px;
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-color: #ffffff;
+  text-underline-offset: 3px;
+}
+
+.all_updates :hover{
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-color: #424242
 }
 
 .ul_list_two {
@@ -343,26 +352,28 @@ hr {
   text-decoration: underline;
   text-decoration-color: white;
   text-decoration-thickness: 1.2px;
-  text-underline-offset: 8px;
+  text-underline-offset: 3px;
 }
 
 .about_ai :hover {
   text-decoration-color: #383838;
 }
 
-.men_pics, .smile{
-  width: 100%;  
-}
-
-.men_pics{
-  margin-top: 115px;
-}
-
-.people, .people1 {
+.men_pics,
+.smile {
   width: 100%;
 }
 
-.smile{
+.men_pics {
+  margin-top: 115px;
+}
+
+.people,
+.people1 {
+  width: 100%;
+}
+
+.smile {
   margin-top: 40px;
 }
 
@@ -380,8 +391,7 @@ hr {
   margin-right: 18px;
 }
 
-.invisible{
-  /* border: 0.1px solid yellowgreen ; */
+.invisible {
   border-color: #11111156;
 }
 
@@ -508,6 +518,7 @@ hr {
 
 .mini_foot {
   width: 400px;
+  height: 100px;
   padding-left: 20px;
 }
 
@@ -535,26 +546,28 @@ hr {
   text-underline-offset: 2.5px;
 }
 
-.try_chat{
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.foot {
+  margin-top: 10px;
+}
+
+.social {
+  display: none;
 }
 
 .social_media {
-  width: 1000px;
+  width: 800px;
 }
 
 .media_lnk {
   display: flex;
   justify-content: start;
-  margin-bottom: 55px;
+  margin-bottom: 40px;
   font-size: 18px;
   font-weight: 500;
+  /* height: 50px; */
 }
 
 .media_list {
-  /* border: 3px solid #0004ff; */
   list-style-type: none;
   margin-right: 18px;
 }
@@ -570,43 +583,326 @@ hr {
   text-decoration-line: underline;
   text-decoration-color: #ffffff;
   text-decoration-thickness: 1px;
-  text-underline-offset: 2.5px;
+  text-underline-offset: 3px;
 }
 
 .back_up {
+  display: flex;
+  justify-content: start;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
 }
+
+.back {
+  margin-right: 3px;
+}
+
 .back_up :hover {
   /* border: 2px solid #5e8000; */
   text-decoration-line: underline;
   text-decoration-color: #ffffff;
   text-decoration-thickness: 1px;
-  text-underline-offset: 2.5px;
+  text-underline-offset: 3px;
 }
 
-.line{
+.line {
   background-color: black;
-  /* margin-top: -23px; */
 }
 
-.gen_line{
-  border: 5px solid rgb(189, 186, 15);
-  height: 100vh;
-  /* margin-bottom: 50px; */
-}
+@media (max-width: 38em) {
+  .body {
+    border: 3px solid red;
+  }
 
-.line_1{
-  border: 5px solid rgb(15, 189, 67);
-  height: 100%;
-}
+  .nav_sec {
+    position: absolute;
+    top: 0px;
+    padding: 2px;
+  }
 
-@media screen and (max-width:600px){
-  .body{
-    border: 3px solid gold;
-   display: block;
-   width: 60%;
+  .create_agi {
+    margin-top: 285px;
+    margin-left: 10px;
+    height: 245px;
+  }
+
+  .agi {
+    width: 380px;
+    margin-bottom: 30px;
+  }
+  .safe-agi {
+    font-size: 38px;
+    font-weight: 500;
+  }
+
+  .more_about {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .learn_openai {
+    font-size: 15px;
+    width: 160px;
+  }
+
+  .video_play {
+    height: 525px;
+  }
+
+  .video_btn {
+    margin-left: 40px;
+    padding-top: 10px;
+    width: 45px;
+  }
+
+  .pause_video {
+    display: none;
+  }
+
+  .ul_list_one {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+  }
+
+  .prior_work {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding: 0 15px;
+  }
+
+  a .abt_products {
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .pioneer_list_one {
+    margin-bottom: 16px;
+  }
+
+  hr {
+    padding: 0;
+    margin: 0px 15px;
+    margin-top: 75px;
+  }
+
+  .latest {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .latest_updates {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+ 
+  .all_updates {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+
+  .ul_list_two {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .box {
+    width: 395px;
+    height: 365px;
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+
+  .chatgpt_updates {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+  }
+
+  .sr-only {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+
+  .agi_create {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 72px;
+    height: 140px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+  }
+
+  .potential-benefits {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 0 5px;
+  }
+
+  .more_benefits {
+    font-size: 20px;
+    margin-top: 16px;
+    width: 390px;
+    padding: 0 15px;
+  }
+
+  .about_ai p {
+    color: white;
+    font-size: 15px;
+    padding: 0 15px;
+    margin: 0;
   }
   
+  .people,
+  .people1 {
+    margin-top: 30px;
+  }
+
+  .smile {
+    margin-top: 85px;
+  }
+
+  .my_team {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 150px;
+  }
+  
+  .casual_person {
+    width: 395px;
+    height: 365px;
+    margin-top: 15px;
+    padding: 0 15px;
+  }
+
+  .learning_space {
+    font-size: 29px;
+    font-weight: 600;
+    width: 390px;
+    text-indent: 1px;
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+
+  .writer {
+    margin-top: 23px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 15px;
+  }
+
+  .applied_ai {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  .future_ai {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .view_tech {
+    padding: 0;
+    margin: 0;
+    margin: 0 15px;
+    border-radius: 5px;
+  }
+
+  .view_tech p {
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .footer {
+    border: 3px solid rgb(218, 32, 162);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .ul_list_foot {
+    border: 3px solid rgb(32, 218, 48);
+    width: 350px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  .ul_list_foot p {
+    border: 3px solid rgb(32, 190, 218);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+
+  .foot_nav {
+    border: 3px solid goldenrod;
+  }
+
+  .foot_end {
+    height: 300px;
+    gap: 5px;
+    border: 3px solid red;
+    
+  }
+
+  .mini_foot{
+    width: 200px;
+    padding: 0 10px;
+  }
+  
+  .social {
+    border: 3px solid rgb(170, 152, 251);
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  /* .social-container{
+    display: inline-block;
+  } */
+
+  .social_media {
+    border: 3px solid red;
+    width: 175px;
+    height: 165px;
+  }
+  
+  
+  .media_lnk {
+    border: 3px solid palegreen;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0;
+  }
+
+  .back_up {
+    border: 3px solid rgb(120, 175, 17);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  }
 }
